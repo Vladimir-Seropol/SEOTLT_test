@@ -94,6 +94,7 @@ const App: React.FC = () => {
             />
           </div>
           <button
+          className="bnt-submit"
             type="submit"
           >
             {editingId ? "Обновить" : "Добавить"}
